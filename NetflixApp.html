@@ -1,0 +1,16 @@
+<script>
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://unogs-unogs-v1.p.rapidapi.com/api.cgi?t=genres",
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "unogs-unogs-v1.p.rapidapi.com",
+            "x-rapidapi-key": "eb5ecd49b7msh10691397bd8348ap1294c4jsn30d224e24b49"
+        }
+    }
+
+    $.ajax(settings).done(function (response) {
+        console.log(response);
+    });
+</script>
